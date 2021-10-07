@@ -39,9 +39,14 @@ This will save the edits and then it should work.
 Versions can be check with
 
 ```shell
-java -version
-javac -version
-mvn -version
+echo $ANDROID_HOME
+/Users/aldrinmalakar/Library/Android/sdk/
+
+echo $JAVA_HOME
+/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home
+
+echo $MAVEN_HOME
+/Users/aldrinmalakar/apache-maven-3.8.3
 ```
 
 
